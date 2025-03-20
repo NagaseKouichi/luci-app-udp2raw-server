@@ -1,0 +1,12 @@
+
+config udp2raw-server
+  option enable '0'
+  option listen_addr '0.0.0.0'
+  option listen_port '54321'
+  option remote_addr ''
+  option remote_port '12345'
+  option key ''
+  option raw_mode 'faketcp'
+  option cipher_mode 'aes128cbc'
+  option auth_mode 'md5'
+  option fix_gro '0'

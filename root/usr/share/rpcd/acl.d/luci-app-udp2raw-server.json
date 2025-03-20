@@ -1,0 +1,15 @@
+{
+	"luci-app-dns-forwarder": {
+		"description": "Grant access to LuCI U2p2raw(Server)",
+		"read": {
+			"uci": [
+				"udp2raw-server"
+			]
+		},
+		"write": {
+			"uci": [
+				"udp2raw-server"
+			]
+		}
+	}
+}
